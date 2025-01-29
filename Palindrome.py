@@ -10,9 +10,12 @@ wordList = list(word)
 backwardsWord = wordList[::-1]
 
 
-#Checks weather or not the backwardsWord is 
-#equal to the word originally inputted
-if backwardsWord == wordList:
-    print('Palindrome!')
-else:
-    print('Not a palindrome')
+def palindromeFunc(wordList, backwardsWord):
+    #Checks weather or not the backwardsWord is 
+    #equal to the word originally inputted
+    if backwardsWord == wordList:
+        print('Palindrome!')
+    else:
+        print('Not a palindrome')
+
+palindromeFunc(wordList, backwardsWord)
